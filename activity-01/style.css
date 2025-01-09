@@ -1,0 +1,177 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about {
+    text-align: left;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+section.carousel {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 70%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-container img {
+    max-width: 100%;
+    max-height: 500px;
+    display: none;
+    width: auto;
+    height: 100%;
+}
+
+.carousel-container img:first-child {
+    display: block;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+aside {
+    background-color: #e0e0e0;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+aside ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    width: 100%; 
+    box-sizing: border-box;
+    text-align: center;
+}
+
+aside ul li a:hover {
+    background-color: #141f2b;
+}
+
+footer {
+    margin-top: auto;
+}
+
+h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2.about {
+    display: inline;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+aside h2 {
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
+}
+
+a:hover {
+    color: #007BFF;
+}
