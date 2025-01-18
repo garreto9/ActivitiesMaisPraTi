@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Anime List</title>
+</head>
+<body>
+    <header>
+        <h1>ANIME LIST</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 class="about">About the Website:</h2>
+    <p class="about">
+        Welcome to my website! Here you will find some high-quality anime options.
+    </p>
+    <p class="about">
+    Here is a list of anime I recommend watching:
+    </p>
+    <div class="main-container">
+        <section class="carousel">            
+            <button class="prev" onclick="moveCarousel(-1)">&#10094;</button>
+            <div class="carousel-container">
+                <img src="images/violet vergarden.webp" alt="Violet Evergarden">
+                <img src="images/frieren.webp" alt="Frieren">
+                <img src="images/the ancient magus bride.jpg" alt="The Ancient Magus Bride">
+                <img src="images/akame ga kill.webp" alt="Akame Ga Kill">
+                <img src="images/samurai champloo.jpg" alt="Samurai Champloo">
+                <img src="images/dororo.webp" alt="Dororo">
+                <img src="images/no game no life.jpg" alt="No Game No Life">
+                <img src="images/blood-c.jpg" alt="Blood-C">
+                <img src="images/another.webp" alt="Another">
+                <img src="images/hunter x hunter.webp" alt="Hunter X Hunter">
+                <img src="images/inuyasha.jpg" alt="Inuyasha">
+                <img src="images/jojo bizarre adventures.webp" alt="JoJo's Bizarre Adventure">
+                <img src="images/mieruko-chan.jpg" alt="Mieruko-chan">
+            </div>
+            <button class="next" onclick="moveCarousel(1)">&#10095;</button>
+        </section>
+        <aside>
+            <h2>Where to Watch:</h2>
+            <ul>
+                <li><a href="https://www.crunchyroll.com/pt-br">Crunchyroll</a></li>
+                <li><a href="https://animefire.plus/">AnimeFire</a></li>
+                <li><a href="https://goyabu.to/">Goyabu</a></li>
+            </ul>
+        </aside>
+    </div>
+    <footer>
+        <p>&copy; 2024 Anime List. Todos os direitos reservados.</p>
+    </footer>
+    <script>
+        let currentIndex = 0;
+        const images = document.querySelectorAll('.carousel-container img');
+
+        function moveCarousel(step) {
+            currentIndex += step;
+            if (currentIndex < 0) {
+                currentIndex = images.length - 1;
+            } else if (currentIndex >= images.length) {
+                currentIndex = 0;
+            }
+            images.forEach((img, index) => {
+                img.style.display = index === currentIndex ? 'block' : 'none';
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            moveCarousel(0);
+        });
+    </script>
+</body>
+</html>
