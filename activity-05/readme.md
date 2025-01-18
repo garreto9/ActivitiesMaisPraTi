@@ -28,21 +28,21 @@ Para visualizar o projeto localmente, siga os passos abaixo:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/ToDoApp.git
+   git clone https://github.com/garreto9/ActivitiesMaisPraTi.git
 
-2. **Abra o CMD e Navegue até o diretório do projeto:**
+2. **Navegue até o diretório do projeto:**
    ```bash
    cd ActivitiesMaisPraTi/activity-05
    ```
 3. **Abra o arquivo `index.html` em um navegador web:**
    ```bash
-   start index.html # Para usuários de Windows
+   start index.html
    ```
 
 ## Estrutura do Projeto
 - **`index.html`**: Arquivo contendo a estrutura HTML da aplicação.
-- **`styles.css`**: Arquivo de estilização utilizando CSS.
-- **`app.js`**: Arquivo JavaScript que implementa a lógica da aplicação.
+- **`style.css`**: Arquivo de estilização utilizando CSS.
+- **`script.js`**: Arquivo JavaScript que implementa a lógica da aplicação.
 
 ---
 
