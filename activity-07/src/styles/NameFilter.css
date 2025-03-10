@@ -1,0 +1,90 @@
+/* Container principal do filtro */
+.filter-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px; /* Tamanho máximo */
+    margin: auto;
+    box-sizing: border-box;
+  }
+  
+  /* Título do filtro */
+  .filter-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Container do campo de busca */
+  .search-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos do campo de busca */
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+  }
+  
+  /* Efeito de foco no campo de busca */
+  .search-input:focus {
+    border: 2px solid #4f82ff;
+  }
+  
+  /* Lista de nomes */
+  .name-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  /* Item de nome na lista */
+  .name-item {
+    padding: 12px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .name-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 600px) {
+    .filter-container {
+      padding: 15px;
+      width: 95%;
+    }
+  
+    .filter-title {
+      font-size: 20px;
+    }
+  
+    .search-input {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .name-item {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  

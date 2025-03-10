@@ -1,0 +1,93 @@
+/* Contêiner principal */
+.timer-container {
+    background-color: white;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  /* Título */
+  .timer-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+  
+  /* Exibição do tempo */
+  .timer-display {
+    font-size: 72px;
+    font-family: 'Courier New', monospace;
+    margin-bottom: 32px;
+  }
+  
+  /* Contêiner dos botões */
+  .timer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  /* Botões */
+  .timer-btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Botão de iniciar/pausar */
+  .timer-btn-start {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .timer-btn-start:hover {
+    background-color: #218838;
+  }
+  
+  .timer-btn-pause {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .timer-btn-pause:hover {
+    background-color: #c82333;
+  }
+  
+  /* Botão de reiniciar */
+  .timer-btn-reset {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .timer-btn-reset:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .timer-container {
+      padding: 20px;
+    }
+  
+    .timer-title {
+      font-size: 20px;
+    }
+  
+    .timer-display {
+      font-size: 48px;
+    }
+  
+    .timer-btn {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,95 @@
+/* Container principal do contador */
+.countdown-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    margin: auto;
+  }
+  
+  /* Título */
+  .countdown-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Caixa de input */
+  .input-container {
+    margin-bottom: 15px;
+  }
+  
+  .input-container label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .input-container input {
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilização do tempo */
+  .time-display {
+    font-size: 36px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  /* Container dos botões */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Estilos gerais dos botões */
+  .btn {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Botão de iniciar */
+  .btn-start {
+    background: #28a745;
+    color: white;
+  }
+  
+  .btn-start:hover {
+    background: #218838;
+  }
+  
+  /* Botão de pausa */
+  .btn-pause {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .btn-pause:hover {
+    background: #c82333;
+  }
+  
+  /* Botão de reset */
+  .btn-reset {
+    background: #6c757d;
+    color: white;
+  }
+  
+  .btn-reset:hover {
+    background: #5a6268;
+  }
+  

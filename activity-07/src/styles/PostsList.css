@@ -1,0 +1,104 @@
+/* Container principal */
+.posts-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Cabeçalho */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .reload-button {
+    padding: 0.5rem;
+    background-color: #3498db;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .reload-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .reload-button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  
+  .loading-message,
+  .error-message {
+    text-align: center;
+    padding: 2rem;
+    color: gray;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  /* Estilos para a lista de posts */
+  .posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .post-card {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .post-card p {
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 600px) {
+    .posts-container {
+      padding: 1rem;
+    }
+  
+    .header h2 {
+      font-size: 1.2rem;
+    }
+  
+    .post-card {
+      padding: 0.8rem;
+    }
+  
+    .reload-button {
+      padding: 0.4rem;
+    }
+  }
+  
+  /* Efeito de rotação no ícone de recarregar */
+  .rotate {
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

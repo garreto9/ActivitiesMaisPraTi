@@ -1,0 +1,62 @@
+/* Container principal do contador */
+.counter-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 250px;
+    margin: auto;
+  }
+  
+  /* Título */
+  .counter-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Número do contador */
+  .counter-display {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    margin-bottom: 20px;
+  }
+  
+  /* Container dos botões */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Estilos gerais dos botões */
+  .btn {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  /* Botão de diminuir */
+  .btn-decrease {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .btn-decrease:hover {
+    background: #c82333;
+  }
+  
+  /* Botão de aumentar */
+  .btn-increase {
+    background: #28a745;
+    color: white;
+  }
+  
+  .btn-increase:hover {
+    background: #218838;
+  }
+  

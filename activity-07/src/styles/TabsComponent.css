@@ -1,0 +1,89 @@
+/* Contêiner principal */
+.tabs-container {
+    background-color: white;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  /* Título */
+  .tabs-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  /* Navegação das abas */
+  .tabs-nav {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 24px;
+  }
+  
+  /* Estilo dos botões de abas */
+  .tab-btn {
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 500;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.3s ease;
+  }
+  
+  .tab-btn:hover {
+    color: #333;
+  }
+  
+  /* Estilo da aba ativa */
+  .tab-btn.active {
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
+  }
+  
+  /* Conteúdo da aba */
+  .tab-content {
+    max-width: 100%;
+  }
+  
+  .tab-content-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  
+  .tab-content-text {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .tabs-container {
+      padding: 20px;
+    }
+  
+    .tabs-title {
+      font-size: 20px;
+    }
+  
+    .tab-btn {
+      padding: 10px 20px;
+      font-size: 12px;
+    }
+  
+    .tab-content-title {
+      font-size: 18px;
+    }
+  
+    .tab-content-text {
+      font-size: 14px;
+    }
+  }
+  

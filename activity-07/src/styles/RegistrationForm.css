@@ -1,0 +1,245 @@
+/* Contêiner principal */
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Título */
+  .form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Mensagem de sucesso */
+  .success-message {
+    text-align: center;
+  }
+  
+  .success-text {
+    color: green;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .welcome-text {
+    margin-bottom: 20px;
+  }
+  
+  .new-registration-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .new-registration-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Formulário */
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Grupo de inputs */
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Rótulos */
+  .input-label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  /* Campos de entrada */
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .input-error {
+    border-color: red;
+  }
+  
+  /* Mensagem de erro */
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Botão de envio */
+  .submit-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 600px) {
+    .form-container {
+      padding: 15px;
+    }
+  
+    .form-title {
+      font-size: 20px;
+    }
+  
+    .input-field {
+      padding: 10px;
+    }
+  
+    .submit-btn {
+      padding: 10px;
+    }
+  
+    .new-registration-btn {
+      padding: 10px;
+    }
+  }
+/* Contêiner principal */
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  /* Título */
+  .form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Mensagem de sucesso */
+  .success-message {
+    text-align: center;
+  }
+  
+  .success-text {
+    color: green;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .welcome-text {
+    margin-bottom: 20px;
+  }
+  
+  .new-registration-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .new-registration-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Formulário */
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Grupo de inputs */
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Rótulos */
+  .input-label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  /* Campos de entrada */
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  .input-error {
+    border-color: red;
+  }
+  
+  /* Mensagem de erro */
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Botão de envio */
+  .submit-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 600px) {
+    .form-container {
+      padding: 15px;
+    }
+  
+    .form-title {
+      font-size: 20px;
+    }
+  
+    .input-field {
+      padding: 10px;
+    }
+  
+    .submit-btn {
+      padding: 10px;
+    }
+  
+    .new-registration-btn {
+      padding: 10px;
+    }
+  }
+    
